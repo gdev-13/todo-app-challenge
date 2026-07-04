@@ -27,6 +27,15 @@ function App() {
                                 ))
                             }
                         </ul>
+                        <div className="flex justify-between items-center p-4 text-dark-purple-100">
+                            <p>{todos.length} items total</p>
+                            <div className="flex gap-4">
+                                <button>All</button>
+                                <button>Active</button>
+                                <button>Completed</button>
+                            </div>
+                            <button>Clear Selected</button>
+                        </div>
                     </div>
                 </div>
             </div>
