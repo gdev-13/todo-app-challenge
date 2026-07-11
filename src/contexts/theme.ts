@@ -5,7 +5,8 @@ export const themeConfig = {
     light: {
         name: "light",
         layout: {
-            backgroundColor: "bg--light-gray-300",
+            heroClass: "theme-light",
+            backgroundColor: "bg-light-gray-300",
             textColor: "text-light-gray-600"
         },
         todo: {
@@ -18,7 +19,8 @@ export const themeConfig = {
     dark: {
         name: "dark",
         layout: {
-            backgroundColor: "bg--dark-blue-950",
+            heroClass: "theme-dark",
+            backgroundColor: "bg-dark-navy-950",
             textColor: "text-dark-purple-700"
         },
         todo: {
